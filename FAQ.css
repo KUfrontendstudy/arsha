@@ -1,12 +1,22 @@
 #faq {
     background-color: #F4F5F9;
-    height: 90%;
-    border-bottom: 10px;
+    margin: 0;
+    height: 90vh;
+
 }
 
-.faq_container {
-    border-bottom: 10px;
+
+.information>h1 {
+    color: #37517E;
+    font-size: 32px;
 }
+
+.information>p {
+    color: #444444;
+    font-size: 16px;
+}
+
+
 
 .information>h1,
 p {
@@ -16,6 +26,10 @@ p {
 
 .faq_question {
     display: flex;
+    background-color: white;
+    width: 80%;
+    height: 40px;
+    margin: 10px;
 }
 
 .question {
@@ -28,8 +42,46 @@ p {
     padding: 10px;
 }
 
+.contact_info>h4 {
+    font-size: 22px;
+    color: #37517E;
+
+}
+
 #contact12 {
     display: flex;
+    justify-content: center;
+
+}
+
+.contact_1,
+.contact_2 {
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.your {
+    margin: 0 12px;
+}
+
+.contact_2_second {
+    margin: 0 12px;
+
+}
+
+.contact_2_send {
+    margin: 12px 12px;
+}
+
+.contact_2_send>button {
+    justify-content: center;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background: #47b2e4;
+    font-size: 16px;
+    padding: 16px 34px;
 }
 
 .contact_icon {
@@ -43,4 +95,10 @@ p {
 
 .contact_2_first {
     display: flex;
+}
+
+
+.your {
+    color: #444444;
+    font-size: 16px;
 }
