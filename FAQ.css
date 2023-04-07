@@ -1,14 +1,18 @@
-#id {
+#faq {
     background-color: #F4F5F9;
+    height: 90%;
+    border-bottom: 10px;
 }
 
-.title {
+.faq_container {
+    border-bottom: 10px;
+}
+
+.information>h1,
+p {
     text-align: center;
 }
 
-.content {
-    text-align: center;
-}
 
 .faq_question {
     display: flex;
@@ -33,4 +37,10 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+
+
+
+.contact_2_first {
+    display: flex;
 }

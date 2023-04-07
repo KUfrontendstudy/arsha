@@ -11,75 +11,76 @@
   </head>
   <body>
     <section id="faq">
-      <div class="information">
-        <h1 class="title">FREQUENTLY ASKED QUESTIONS</h1>
-        <p class="content">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <div class="faq_container">
+        <div class="information">
+          <h1>FREQUENTLY ASKED QUESTIONS</h1>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+  
+        <ul id="question_list">
+          <li class="faq_question">
+            <div class="icon">
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="question">
+              Non consectetur a erat nam at lectus urna duis?
+            </div>
+            <div class="toggle_down">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+          <li class="faq_question">
+            <div class="icon">
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="question">
+              Feugiat scelerisque varius morbi enim nunc?
+            </div>
+            <div class="toggle_down">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+          <li class="faq_question">
+            <div class="icon">
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="question">
+              Dolor sit amet consectetur adipiscing elit?
+            </div>
+            <div class="toggle_down">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+          <li class="faq_question">
+            <div class="icon">
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="question">
+              Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+            </div>
+            <div class="toggle_down">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+          <li class="faq_question">
+            <div class="icon">
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="question">
+              Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+            </div>
+            <div class="toggle_down">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </li>
+        </ul>
       </div>
-
-      <div id="questions">
-        <div class="faq_question">
-          <div class="icon">
-            <i class="fa-regular fa-circle-question"></i>
-          </div>
-          <div class="question">
-            Non consectetur a erat nam at lectus urna duis?
-          </div>
-          <div class="toggle_down">
-            <i class="fa-solid fa-angle-down"></i>
-          </div>
-        </div>
-        <div class="faq_question">
-          <div class="icon">
-            <i class="fa-regular fa-circle-question"></i>
-          </div>
-          <div class="question">
-            Feugiat scelerisque varius morbi enim nunc?
-          </div>
-          <div class="toggle_down">
-            <i class="fa-solid fa-angle-down"></i>
-          </div>
-        </div>
-        <div class="faq_question">
-          <div class="icon">
-            <i class="fa-regular fa-circle-question"></i>
-          </div>
-          <div class="question">
-            Dolor sit amet consectetur adipiscing elit?
-          </div>
-          <div class="toggle_down">
-            <i class="fa-solid fa-angle-down"></i>
-          </div>
-        </div>
-        <div class="faq_question">
-          <div class="icon">
-            <i class="fa-regular fa-circle-question"></i>
-          </div>
-          <div class="question">
-            Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-          </div>
-          <div class="toggle_down">
-            <i class="fa-solid fa-angle-down"></i>
-          </div>
-        </div>
-        <div class="faq_question">
-          <div class="icon">
-            <i class="fa-regular fa-circle-question"></i>
-          </div>
-          <div class="question">
-            Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
-          </div>
-          <div class="toggle_down">
-            <i class="fa-solid fa-angle-down"></i>
-          </div>
-        </div>
-      </div>
-      
     </section>
     
     <section id="contact">
       <div class="information">
-        <h1 class="title">CONTACT</h1>
-        <p class="content">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <h1 >CONTACT</h1>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div>
       <div id="contact12">
         <div class="contact_1">
@@ -117,10 +118,39 @@
         </div>
   
         <div class="contact_2">
-          <div>yourname</div>
-          <div>subject</div>
-          <div>message</div>
-          <div>send</div>
+          <div class="contact_2_first">
+            <div class="your">
+              <label for="yourname">
+                your name
+              </label><br>
+              <input name="yourname">
+            </div>
+
+            <div class="your">
+              <label for="youremail">
+                your email
+              </label><br>
+              <input name="youremail">
+            </div>
+            
+          </div>
+          <div class="contact_2_second">
+            <label for="Subject">
+              Subject
+            </label><br>
+            <input name="Subject">
+          </div>
+          <div class="contact_2_second">
+            <label for="Message">
+              Message
+            </label><br>
+            <input name="Message">
+          </div>
+          <div class="contact_2_send">
+            <button>
+              Send Message
+            </button>
+          </div>
         </div>
 
       </div>
