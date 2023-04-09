@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+}
+
 #faq {
     background-color: #F4F5F9;
     margin: 0;
     height: 90vh;
+    padding: 0 60px;
 
 }
 
@@ -23,18 +28,43 @@ p {
     text-align: center;
 }
 
+#question_list {
+    margin: auto;
+}
 
 .faq_question {
     display: flex;
     background-color: white;
     width: 80%;
-    height: 40px;
+    height: 64px;
     margin: 10px;
 }
 
 .question {
     width: 70%;
     margin-left: 5px;
+    color: #37517E;
+}
+
+.icon>i {
+    color: #47b2e4;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#contact {
+    background-color: #F3F5FA;
+    margin: 0;
+    height: 90vh;
+    padding: 0 60px;
+    justify-content: center;
+}
+
+.contact_container {
+    width: 80%;
+    padding: auto;
+    margin: autoo;
 }
 
 .our_info {
@@ -58,6 +88,19 @@ p {
 .contact_2 {
     border: 1px solid gray;
     margin: 10px;
+    background-color: #ffffff;
+}
+
+.contact_icon {
+    font-size: 20px;
+    color: #47b2e4;
+    float: left;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #e7f5fb;
+    padding: 0px;
 }
 
 .your {
@@ -101,4 +144,15 @@ p {
 .your {
     color: #444444;
     font-size: 16px;
+    margin: 20px;
+}
+
+.your>input {
+    height: 35px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 10px 0;
+    border-color: gray;
+    outline: none;
 }
