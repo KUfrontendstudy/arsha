@@ -92,13 +92,11 @@ h2{
     padding-bottom: 30px;
 }
 .row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    gap : 30px;
+    justify-content: center;
 }
 
 .box{
@@ -110,10 +108,10 @@ h2{
         transition: 0.5s;
         height: 100%;
         width : 30%;
-        margin-top: 30px;
-        margin-right: auto;
-        margin-left: auto;
+        margin-top: 10px;
+
         display: inline-flex;
+        /* gap 쓰기!! -> 가운데로 모이게 하는 것 */
         
         
 }
