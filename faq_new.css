@@ -74,6 +74,9 @@ p {
 }
 
 
+.spacer {
+    flex: 1;
+}
 
 .faq_question>.icon {
     color: var(--color-accent);
@@ -128,6 +131,8 @@ p {
     border-radius: 50px;
     background-color: #e7f5fb;
     margin-right: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .our_info:hover .contact_icon i {
