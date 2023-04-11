@@ -1,0 +1,70 @@
+#navi {
+    text-align: right;
+    word-spacing: 10px;
+  }
+ 
+  #intro {
+    color:white;
+    background-color: royalblue;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 20px;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color:white;
+  }
+
+  .get_started {
+    background-color:skyblue; 
+    border-radius: 40%;
+    height: 40px;
+    width: 90px; 
+    color:white;
+}
+
+#start {
+  outline: 2px solid skyblue;
+  border-radius: 40%;
+  height: 40px;
+  width: 90px;
+}
+
+#appendix {
+    background-color:lightgrey;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 20px;
+}
+
+#myob {
+  color:black;
+  font-family: 'Poppins',sans-serif;
+}
+#Belimo {
+  color:black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Lifegroups {
+  color:black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#Lilly {
+  color:black;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#Citrus {
+  color:black;
+  font-family:'Times New Roman', Times, serif;
+}
+#Trustly {
+  color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

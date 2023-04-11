@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body{
+    background-color:#f3f5fa ;
+}
+div{
+    display: block;
+}
+
+/*
+.team .member .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8;
+}
+*/
+
+.twitter {
+    height:35px;
+    width: 35px;
+    border-radius: 35px;
+    background-size: 35px;
+    cursor: pointer;
+    background-image: url("twitter.png") ;
+    
+}
+.in {
+    height:35px;
+    width: 35px;
+    border-radius: 35px;
+    background-size: 35px;
+    cursor: pointer;
+    background-image: url("linkedin.png") ;
+}
+.instagram{
+    height:35px;
+    width: 35px;
+    border-radius: 35px;
+    background-size: 35px;
+    cursor: pointer;
+    background-image: url("instagram.jpeg") ;
+}
+.facebook {
+    height:35px;
+    width: 35px;
+    border-radius: 35px;
+    background-size: 35px;
+    cursor: pointer;
+    background-image: url("facebook.png") ;
+}
+p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.pic{
+    vertical-align: middle;
+    width : 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: "Jost", sans-serif;
+    display: block;
+    font-size: 30px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #37517e;
+}
+h2{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37517e;
+}
+
+.top{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.box{
+        position: relative;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        border-radius: 5px;
+        background: #fff;
+        transition: 0.5s;
+        height: 100%;
+        width : 30%;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        
+        
+}
+
+.b1{
+    background-color: white;
+    overflow: auto;
+}
+.b2{
+    background-color: white;
+    overflow: auto;
+}
+.b3{
+    background-color: white;
+    overflow: auto;
+}
+.b4{
+    background-color: white;
+    overflow: auto;
+}
