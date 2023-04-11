@@ -96,6 +96,6 @@
 
             .box {
                 color:white;
-                display:inline-block;
+                display:flex-direction;
                 height:50px;
             }
