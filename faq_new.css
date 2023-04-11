@@ -1,0 +1,205 @@
+@import 'theme.css';
+
+#faq {
+    background-color: var(--color-background);
+    margin: 0;
+    display: flex;
+}
+
+#contact {
+    margin: 0;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+.main_info {
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.main_info>h1 {
+    color: var(--color-primary);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.main_info>.bar,
+p {
+    align-items: center;
+    text-align: center;
+}
+
+.main_info>p {
+    color: #444444;
+}
+
+.faq__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question_list {
+    list-style: none;
+    padding: 0;
+    width: 90%;
+}
+
+.faq_question_container {
+    background-color: white;
+    height: 24px;
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq_question {
+    margin: 5px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.faq_question:hover .question {
+    color: var(--color-accent);
+    cursor: pointer;
+}
+
+
+
+.faq_question>.icon {
+    color: var(--color-accent);
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.faq_question>.question,
+.toggle_down {
+    color: var(--color-primary);
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.faq_question:hover .fa-solid fa-angle-down {
+    color: var(--color-accent);
+    cursor: pointer;
+}
+
+.contact__main {
+    display: flex;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.contact_box {
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: #ffffff;
+    height: 75vh;
+}
+
+.contact_info_container {
+    margin: 10px;
+    justify-content: center;
+}
+
+.our_info {
+    display: flex;
+    align-items: center;
+}
+
+.contact_icon>i {
+    font-size: 20px;
+    color: #47b2e4;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #e7f5fb;
+    margin-right: 20px;
+}
+
+.our_info:hover .contact_icon i {
+    color: var(--color-primary);
+}
+
+.map {
+    border: 1px solid gray;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.your_info__detail {
+    margin: 10px;
+    display: flex;
+}
+
+.your_info2 {
+    margin-right: 10px;
+}
+
+.your_info2>input {
+    height: 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 10px 0;
+    border-color: gray;
+    outline: none;
+
+}
+
+.your_info {
+    margin: 10px;
+    padding: 10px;
+}
+
+.your_info>input {
+    height: 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 10px 0;
+    border-color: gray;
+    outline: none;
+    width: 90%;
+}
+
+.your_info>textarea {
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin: 10px 0;
+    border-color: gray;
+    outline: none;
+    width: 90%;
+}
+
+.your_info3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.your_info3>button {
+    justify-content: center;
+    height: 48px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background: #47b2e4;
+    font-size: 16px;
+    padding: 16px 34px;
+    margin-bottom: 1px;
+}

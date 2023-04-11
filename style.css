@@ -199,65 +199,73 @@
 
 
 /* 송현지 파트 시작 */
-body {
-  margin: 0;
-}
-
 #faq {
-  background-color: #F4F5F9;
+  background-color: var(--color-background);
   margin: 0;
-  height: 90vh;
-  padding: 0 60px;
-
+  display: flex;
 }
 
+#contact {
+  margin: 0;
+  background-color: whitesmoke;
+  display: flex;
+}
 
-.information>h1 {
+.container {
+  margin: 0 100px;
+}
+
+.main_info {
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.main_info>h1 {
   color: var(--color-primary);
-  font-size: 32px;
+  text-align: center;
+  font-weight: bolder;
 }
 
-.information>p {
-  color: #444444;
-  font-size: 16px;
-}
-
-
-
-.information>h1,
+.main_info>.bar,
 p {
+  align-items: center;
   text-align: center;
 }
 
-#question_list {
-  margin: auto;
+.main_info>p {
+  color: #444444;
+}
+
+.faq__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question_list {
+  list-style: none;
+  padding: 0;
+  width: 90%;
+}
+
+.faq_question_container {
+  background-color: white;
+  height: 24px;
+  padding: 20px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq_question {
+  margin: 5px 10px;
+  width: 100%;
   display: flex;
-  background-color: white;
-  width: 80%;
-  height: 64px;
-  margin: 10px;
+  align-items: center;
 }
 
-.question {
-  width: 70%;
-  margin-left: 5px;
-  color: #37517E;
-}
-
-
-.icon>i {
-  color: #47b2e4;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: center;
-}
-
-.faq_question:hover {
-  color: var(--color-accent);
-}
 
 .faq_question:hover .question {
   color: var(--color-accent);
@@ -265,70 +273,125 @@ p {
 }
 
 
-#contact {
-  background-color: #F3F5FA;
-  margin: 0;
-  height: 90vh;
-  padding: 0 60px;
-  justify-content: center;
+
+.faq_question>.icon {
+  color: var(--color-accent);
+  font-size: 16px;
+  margin-right: 10px;
 }
 
-.contact_container {
-  width: 80%;
-  padding: auto;
-  margin: autoo;
+.faq_question>.question,
+.toggle_down {
+  color: var(--color-primary);
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.faq_question:hover .fa-solid fa-angle-down {
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
+.contact__main {
+  display: flex;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.contact_box {
+  border: 1px solid gray;
+  margin: 10px;
+  background-color: #ffffff;
+  height: 75vh;
+}
+
+.contact_info_container {
+  margin: 10px;
+  justify-content: center;
 }
 
 .our_info {
   display: flex;
-  padding: 10px;
+  align-items: center;
 }
 
-.contact_info>h4 {
-  font-size: 22px;
-  color: #37517E;
-
-}
-
-#contact12 {
-  display: flex;
-  justify-content: center;
-
-}
-
-.contact_1,
-.contact_2 {
-  border: 1px solid gray;
-  margin: 10px;
-  background-color: #ffffff;
-}
-
-.contact_icon {
+.contact_icon>i {
   font-size: 20px;
   color: #47b2e4;
-  float: left;
   width: 44px;
   height: 44px;
   align-items: center;
   border-radius: 50px;
   background-color: #e7f5fb;
-  padding: 0px;
+  margin-right: 20px;
 }
 
-.your {
-  margin: 0 12px;
+.our_info:hover .contact_icon i {
+  color: var(--color-primary);
 }
 
-.contact_2_second {
-  margin: 0 12px;
+.map {
+  border: 1px solid gray;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.your_info__detail {
+  margin: 10px;
+  display: flex;
+}
+
+.your_info2 {
+  margin-right: 10px;
+}
+
+.your_info2>input {
+  height: 30px;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin: 10px 0;
+  border-color: gray;
+  outline: none;
 
 }
 
-.contact_2_send {
-  margin: 12px 12px;
+.your_info {
+  margin: 10px;
+  padding: 10px;
 }
 
-.contact_2_send>button {
+.your_info>input {
+  height: 30px;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin: 10px 0;
+  border-color: gray;
+  outline: none;
+  width: 90%;
+}
+
+.your_info>textarea {
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin: 10px 0;
+  border-color: gray;
+  outline: none;
+  width: 90%;
+}
+
+.your_info3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.your_info3>button {
   justify-content: center;
   height: 48px;
   border-radius: 50px;
@@ -337,54 +400,7 @@ p {
   background: #47b2e4;
   font-size: 16px;
   padding: 16px 34px;
-}
-
-.contact_icon {
-  font-size: 20px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-}
-
-.our_info:hover .contact_icon {
-  color: var(--color-primary);
-}
-
-
-
-
-.contact_2_first {
-  display: flex;
-}
-
-
-.your,
-.contact_2_second {
-  color: #444444;
-  font-size: 16px;
-  margin: 20px;
-}
-
-.your>input {
-  height: 30px;
-  width: 100%;
-  font-size: 14px;
-  border-radius: 4px;
-  padding: 6px 12px;
-  margin: 10px 0;
-  border-color: gray;
-  outline: none;
-}
-
-.contact_2_second>input {
-  height: 30px;
-  width: 90%;
-  font-size: 14px;
-  border-radius: 4px;
-  padding: 6px 12px;
-  margin: 10px 0;
-  border-color: gray;
-  outline: none;
+  margin-bottom: 1px;
 }
 
 /*송현지 파트 끝*/
