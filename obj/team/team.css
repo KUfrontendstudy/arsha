@@ -1,9 +1,10 @@
 @charset "utf-8";
 
-body{
-    background-color:#f3f5fa ;
+body {
+    background-color: #f3f5fa;
 }
-div{
+
+div {
     display: block;
 }
 
@@ -21,39 +22,43 @@ div{
 */
 
 .twitter {
-    height:35px;
+    height: 35px;
     width: 35px;
     border-radius: 35px;
     background-size: 35px;
     cursor: pointer;
-    background-image: url("twitter.png") ;
-    
+    background-image: url("twitter.png");
+
 }
+
 .in {
-    height:35px;
+    height: 35px;
     width: 35px;
     border-radius: 35px;
     background-size: 35px;
     cursor: pointer;
-    background-image: url("linkedin.png") ;
+    background-image: url("linkedin.png");
 }
-.instagram{
-    height:35px;
+
+.instagram {
+    height: 35px;
     width: 35px;
     border-radius: 35px;
     background-size: 35px;
     cursor: pointer;
-    background-image: url("instagram.jpeg") ;
+    background-image: url("instagram.jpeg");
 }
+
 .facebook {
-    height:35px;
+    height: 35px;
     width: 35px;
     border-radius: 35px;
     background-size: 35px;
     cursor: pointer;
-    background-image: url("facebook.png") ;
+    background-image: url("facebook.png");
 }
-p{
+
+p {
     margin: 10px 0 0 0;
     font-size: 14px;
     display: block;
@@ -62,14 +67,15 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.pic{
+
+.pic {
     vertical-align: middle;
-    width : 170px;
+    width: 170px;
     height: 170px;
     border-radius: 50%;
 }
 
-h1{
+h1 {
     font-family: "Jost", sans-serif;
     display: block;
     font-size: 30px;
@@ -80,56 +86,58 @@ h1{
     font-weight: bold;
     color: #37517e;
 }
-h2{
+
+h2 {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
     color: #37517e;
 }
 
-.top{
+.top {
     text-align: center;
     padding-bottom: 30px;
 }
+
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
-.box{
-        position: relative;
-        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-        padding: 30px;
-        border-radius: 5px;
-        background: #fff;
-        transition: 0.5s;
-        height: 100%;
-        width : 30%;
-        margin-top: 30px;
-        margin-right: auto;
-        margin-left: auto;
-        
-        
+.box {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+    height: 100%;
+    width: 30%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.b1{
+.b1 {
     background-color: white;
     overflow: auto;
 }
-.b2{
+
+.b2 {
     background-color: white;
     overflow: auto;
 }
-.b3{
+
+.b3 {
     background-color: white;
     overflow: auto;
 }
-.b4{
+
+.b4 {
     background-color: white;
     overflow: auto;
 }
